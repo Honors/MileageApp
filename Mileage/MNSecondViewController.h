@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MNSecondViewController : UIViewController
+@interface MNSecondViewController : UIViewController {
+    IBOutlet UIImageView *img1;
+    IBOutlet UIImageView *img2;
+    IBOutlet UIButton *distance;
+}
 
 @end

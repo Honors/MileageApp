@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MNTrackingViewController.h"
 
 @interface MNAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) MNTrackingViewController *mntvc;
 
 @end
